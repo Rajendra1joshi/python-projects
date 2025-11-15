@@ -1,0 +1,4 @@
+Student name: Raj 
+Marks: 81
+Subject: Science 
+Status: PASS

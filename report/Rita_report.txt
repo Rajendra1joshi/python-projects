@@ -1,0 +1,4 @@
+Student name: Rita 
+Marks: 88
+Subject: Science 
+Status: PASS

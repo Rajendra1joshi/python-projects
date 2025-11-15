@@ -1,0 +1,4 @@
+Student name: Aayush 
+Marks: 78
+Subject: Math 
+Status: PASS
