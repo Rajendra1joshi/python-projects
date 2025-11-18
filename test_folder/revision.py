@@ -14,6 +14,6 @@ import os
 # else:
 #     print("FOlder not exists.")
 
-folder = "Day-6"
+folder = "Week-1"
 
 os.mkdir(folder)
