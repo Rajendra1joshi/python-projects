@@ -1,8 +1,8 @@
-import csv
+# import csv
 
 
 
-with open('students','r') as file:
-    reader = csv.DictReader(file)
+# with open('students','r') as file:
+#     reader = csv.DictReader(file)
 
-    for row in reader:
+#     for row in reader:
