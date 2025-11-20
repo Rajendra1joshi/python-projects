@@ -14,6 +14,10 @@ import os
 # else:
 #     print("FOlder not exists.")
 
-folder = "Week-1"
+# folder = "Day-8"
 
-os.mkdir(folder)
+# os.mkdir(folder)
+
+# with open("new.txt","w") as f:
+#     f.write("This is a new txt, made from python.bye")
+

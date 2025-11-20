@@ -1,0 +1,7 @@
+=== Organizer Started ===
+Moved: Clean.csv -> CSV
+Skipped (no category): csv_revison.py
+Skipped (no category): file_handling_revison.py
+Skipped (no category): first_json
+Moved: first_json.json -> Json
+Moved: friends.csv -> CSV
