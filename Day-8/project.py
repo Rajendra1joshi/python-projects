@@ -2,14 +2,12 @@ import os
 import shutil
 from pathlib import Path
 
-TARGET = Path(r"C:\Users\N I T R O V15\Desktop\Programming\python")
+TARGET = Path(r"C:\Users\RajendraPrasadJoshi\Downloads")
 
 CATEGORIES = {
-    "Images": [".png", ".jpg", ".jpeg"],
+    "Images": [".png", ".jpg", ".jpeg",".webp",".avif"],
     "Videos": [".mp4", ".mov", ".mkv"],
-    "Text":   [".txt"],
-    "CSV":    [".csv"],
-    "Json":   [".json"]
+    "Documents":   [".txt",".py",".csv",".pdf",".docx"],
 }
 
 log_file = TARGET / "log.txt"
@@ -55,7 +53,11 @@ def organize_files():
 
         # Step 4: If no match found
         if not moved:
-            write_log(f"Skipped (no category): {file.name}")
+            folder = TARGET/"others"
+            folder.mkdir(exist_ok=True)
+            destination = folder/file.name
+            shutil.move(file,destination)
+            write_log(f"Moved:{file.name} -> others")
 
 
 # ====== RUN SCRIPT ======
